@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+</head>
+<body>
+    <header class="header" id="nav">
+        <a href="/" class="header_phoneLogo"><img src="./src/img/logo.svg" alt=""></a>
+        <button class="header_nav_menu" id="menuBtn">Menu</button>
+        <nav class="header_nav">
+            <a href="/" class="header_nav_lk">About</a>
+            <a href="/" class="header_nav_lk">Shop</a>
+            <a href="/" class="header_nav_lk">Contact</a>
+            <a href="/" class="header_nav_logo"><img src="./src/img/logo.svg" alt=""></a>
+            <a href="/" class="header_nav_lk">Search</a>
+            <a href="/" class="header_nav_lk">Account</a>
+            <a href="/" class="header_nav_lk">Cart(0)</a>
+        </nav>
+    </header>
+    <div class="headerSliders">
+        <div class="headerSliders_slide" id="headerSlide1">
+            <div class="headerSliders_slide_content">
+                <div class="headerSliders_slide_content_title">Ceramic Soft Pot</div>
+                <div class="headerSliders_slide_content_text">This ceramic soft pot is specially designed by concept of traditional designs.</div>
+                <a href="/" class="headerSliders_slide_content_lk">Show Now</a>
+            </div>
+        </div>
+        <div class="headerSliders_slide" id="headerSlide2">
+            <div class="headerSliders_slide_content">
+                <div class="headerSliders_slide_content_title">Ceramic Soft Pot</div>
+                <div class="headerSliders_slide_content_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio hic vero fugit earum porro laboriosam magnam.</div>
+                <a href="/" class="headerSliders_slide_content_lk">Show Now</a>
+            </div>
+        </div>
+        <div class="headerSliders_slide" id="headerSlide3">
+            <div class="headerSliders_slide_content">
+                <div class="headerSliders_slide_content_title">Shiny Black Pot</div>
+                <div class="headerSliders_slide_content_text">Beautiful shiny black pot is designed for minimalist decors.</div>
+                <a href="/" class="headerSliders_slide_content_lk">Show Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="header_slider">
+        <button class="header_slider_btn _active" id="left"></button>
+        <button class="header_slider_btn" id="center"></button>
+        <button class="header_slider_btn" id="right"></button>
+    </div>
+    <section class="section1">
+        <div class="section1_about">About us</div>
+        <div class="section1_title">Vaso is the only best online store for varieties of collection of clean and beautiful vases.</div>
+        <div class="section1_text">Et id sapien id enim, sit tempor cursus elit, fusce. Nunc tristique facilisis consectetur at vivamus ut porta porta. Ut nisl, tortor, aliquam blandit vitae vehicula vivamus leo nullam urna, scelerisque unc lectus phasellus adipiscing arcu. Tristique facilisis nunc consectetur at tempor cursusut porta .</div>
+    </section>
+    <section class="product">
+        <div class="product_up">
+            <div class="product_up_title">Best Selling Items</div>
+            <div class="product_up_slider">
+                <a href="" class="product_up_slider_a">View All Items</a>
+                <button class="product_up_slider_btn" id="prevProduct">
+                    <svg class="product_up_slider_btn_svg" width="73" height="73">
+                        <use xlink:href="./src/img/product/slider.svg#left"></use>
+                    </svg>
+                </button>
+                <button class="product_up_slider_btn" id="nextProduct">
+                    <svg class="product_up_slider_btn_svg" width="75" height="73">
+                        <use xlink:href="./src/img/product/slider.svg#right"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="product_down">
+            <div class="product_down_item" id="1">
+                <div style="overflow: hidden;">
+                    <img class="product_down_item_img" src="./src/img/product/product-item1.png" alt="">
+                </div>
+                <a class="product_down_item_title" href="">Narrow Base</a>
+                <span class="product_down_item_price">$89</span>
+            </div>
+            <div class="product_down_item" id="2">
+                <div style="overflow: hidden;">
+                    <img class="product_down_item_img" src="./src/img/product/product-item2.png" alt="">
+                </div>
+                <a class="product_down_item_title" href="">Flat White</a>
+                <span class="product_down_item_price">$79</span>
+            </div>
+            <div class="product_down_item" id="3">
+                <div style="overflow: hidden;">
+                    <img class="product_down_item_img" src="./src/img/product/product-item3.png" alt="">
+                </div>
+                <a class="product_down_item_title" href="">Water Vase</a>
+                <span class="product_down_item_price">$90</span>
+            </div>
+            <div class="product_down_item" id="4">
+                <div style="overflow: hidden;">
+                    <img class="product_down_item_img" src="./src/img/product/product-item4.png" alt="">
+                </div>
+                <a class="product_down_item_title" href="">Shiny Off White</a>
+                <span class="product_down_item_price">$99</span>
+            </div>
+            <div class="product_down_item" id="5">
+                <div style="overflow: hidden;">
+                    <img class="product_down_item_img" src="./src/img/product/product-item5.png" alt="">
+                </div>
+                <a class="product_down_item_title" href="">Oyster Shell</a>
+                <span class="product_down_item_price">$95</span>
+            </div>
+            <div class="product_down_item" id="6">
+                <div style="overflow: hidden;">
+                    <img class="product_down_item_img" src="./src/img/product/product-item6.jpg" alt="">
+                </div>
+                <a class="product_down_item_title" href="">Oyster Shell</a>
+                <span class="product_down_item_price">$75</span>
+            </div>
+        </div>
+        <div class="product_slider">
+            <div class="product_slider_item" id="item1"></div>
+            <div class="product_slider_item" id="item2"></div>
+            <div class="product_slider_item" id="item3"></div>
+            <div class="product_slider_item" id="item4"></div>
+            <div class="product_slider_item" id="item5"></div>
+            <div class="product_slider_item" id="item6"></div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="feedback_title">What our customers says</div>
+        <ul class="feedback_content" id="review">
+            <li class="feedback_content_review">
+                <div class="feedback_content_review_text">“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis.”</div>
+                <div class="feedback_content_review_autor">Anna garcia</div>
+            </li>
+            <li class="feedback_content_review">
+                <div class="feedback_content_review_text">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt a pariatur totam placeat voluptas modi eius ex labore. Quis suscipit consectetur mollitia dolor culpa maiores, accusamus eaque ipsum et cum!”</div>
+                <div class="feedback_content_review_autor">Ruth Evans</div>
+            </li>
+            <li class="feedback_content_review">
+                <div class="feedback_content_review_text">“Et id sapien id enim, sit tempor cursus elit, fusce. Nunc tristique facilisis consectetur at vivamus ut porta porta. Ut nisl, tortor, aliquam blandit vitae vehicula vivamus leo nullam urna, scelerisque unc lectus phasellus adipiscing arcu.”</div>
+                <div class="feedback_content_review_autor">Irene Morgan</div>
+            </li>
+        </ul>
+        <div class="feedback_slider">
+            <button class="feedback_slider_btn" id="prevBtn">
+                <svg class="feedback_slider_btn_svg" width="30" height="22">
+                    <use xlink:href="./src/img/feedback/feedback.svg#left"></use>
+                </svg>
+            </button>
+            <div class="feedback_slider_line"></div>
+            <button class="feedback_slider_btn" id="nextBtn">
+                <svg class="feedback_slider_btn_svg" width="30" height="22">
+                    <use xlink:href="./src/img/feedback/feedback.svg#right"></use>
+                </svg>
+            </button>
+        </div>
+    </section>
+    <section class="video">
+        <div class="video_play">
+            <img class="video_play_text" src="./src/img/video/text-pattern.png" alt="">
+        </div>
+        <div class="video_play">
+            <a href=""><img class="video_play_btn" src="./src/img/video/play.svg" alt=""></a>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="faq_title">Some FAQs</div>
+        <div style="margin-top: 40px;">
+            <details class="faq_text">
+                <summary class="faq_question_title">How long will it take to get my first order?</summary>
+                <p class="faq_answer">Et id sapien id enim, sit tempor cursus elit, fusce. Nunc tristique facilisis consectetur at vivamus ut porta porta aliquam blandit vitae vehicula leo nullam urna, scelerisque unc lectus.</p>
+            </details>
+            <details class="faq_text">
+                <summary class="faq_question_title">I got my vase but some items are broken, what to do?</summary>
+                <p class="faq_answer">Et id sapien id enim, sit tempor cursus elit, fusce. Nunc tristique facilisis consectetur at vivamus ut porta porta aliquam blandit vitae vehicula leo nullam urna, scelerisque unc lectus.</p>
+            </details>
+            <details class="faq_text">
+                <summary class="faq_question_title">Can i return them if I don’t like the items I bought?</summary>
+                <p class="faq_answer">Et id sapien id enim, sit tempor cursus elit, fusce. Nunc tristique facilisis consectetur at vivamus ut porta porta aliquam blandit vitae vehicula leo nullam urna, scelerisque unc lectus.</p>
+            </details>
+            <details class="faq_text">
+                <summary class="faq_question_title">Will we get discount if we will order many vase?</summary>
+                <p class="faq_answer">Et id sapien id enim, sit tempor cursus elit, fusce. Nunc tristique facilisis consectetur at vivamus ut porta porta aliquam blandit vitae vehicula leo nullam urna, scelerisque unc lectus.</p>
+            </details>
+            <details class="faq_text">
+                <summary class="faq_question_title">Are there refunds for sale items or some special orders?</summary>
+                <p class="faq_answer">Et id sapien id enim, sit tempor cursus elit, fusce. Nunc tristique facilisis consectetur at vivamus ut porta porta aliquam blandit vitae vehicula leo nullam urna, scelerisque unc lectus.</p>
+            </details>
+        </div>
+    </section>
+    <section class="collection">
+        <div class="collection_banners">
+            <div class="collection_banners_item collection_item1" style="background-image: url(./src/img/banners/banner-img1.png);">
+                <div class="collection_banners_item_text1">
+                    <div class="collection_banners_item_title">Old Handmade</div>
+                    <a href="" class="collection_banners_item_lk">Shop It Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="collection_banners rows">
+            <div class="rows_size"> 
+                <div class="collection_banners_item rows_item" style="background-image: url(./src/img/banners/banner-img2.png);">
+                    <div class="collection_banners_item_text2">
+                        <div class="collection_banners_item_title">Double Handle</div>
+                        <a href="" class="collection_banners_item_lk">Shop Collection</a>
+                    </div>
+                </div>
+            </div>
+            <div class="rows_size">
+                <div class="collection_banners_item rows_item" style="background-image: url(./src/img/banners/banner-img3.png);">
+                    <div class="collection_banners_item_text2">
+                        <div class="collection_banners_item_title">Pumpers</div>
+                        <a href="" class="collection_banners_item_lk">Shop Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="footer_left">
+                <div class="footer_top_logo">
+                    <a class="footer_top_logo_lk" href="#header"><img src="./src/img/logo.svg" alt=""></a>
+                    <p class="footer_top_logo_text">Nunc tristique facilisis consectetur vivamus ut porta porta aliquam vitae vehicula leo nullam urna lectus.</p>
+                </div>
+                <div class="footer_top_links">
+                    <div class="footer_top_links_title">Quick Links</div>
+                    <div class="footer_top_links_lk">
+                        <br><a href="">About</a>
+                        <br><a href="">Shop</a>
+                        <br><a href="">Contact</a>
+                        <br><a href="">Account</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_right">
+                <div class="footer_top_contact">
+                    <div class="footer_top_contact_title">Contact Info</div>
+                    <div class="footer_top_contact_info">
+                        <a href="">Tea Berry, Marinette, USA</a>
+                        <a href="">+31 939 777 6366234</a>
+                        <a href="" >contact@templatesjungle.com</a>
+                    </div>
+                </div>
+                <div class="footer_top_info">
+                    <div class="footer_top_info_title">Social Info</div>
+                    <div class="footer_top_info_text">You can follow us on our social platforms to get updates.</div>
+                    <div class="footer_top_info_social">
+                        <a href="" title="Facebook">
+                            <svg class="footer_top_info_social_svg" width="10" height="18">
+                                <use xlink:href="./src/img/social/social.svg#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="" title="Instagram">
+                            <svg class="footer_top_info_social_svg" width="15" height="16">
+                                <use xlink:href="./src/img/social/social.svg#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="" title="Twitter">
+                            <svg class="footer_top_info_social_svg" width="16" height="13">
+                                <use xlink:href="./src/img/social/social.svg#twitter"></use>
+                            </svg>
+                        </a>
+                        <a href="" title="LinkedIn">
+                            <svg class="footer_top_info_social_svg" width="15" height="16">
+                                <use xlink:href="./src/img/social/social.svg#in"></use>
+                            </svg>
+                        </a>
+                        <a href="/" title="YouTube">
+                            <svg class="footer_top_info_social_svg" width="19" height="13">
+                                <use xlink:href="./src/img/social/social.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>© Copyright 2023 Vaso. Design by <b>TemplatesJungle</b></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+    <symbol id="left">
+        <path d="M11.62 0.69L1.39 11.19L11.62 21.69M1.39 11.19L30.39 11.19"  stroke-width="2.000000"/>
+    </symbol>
+
+    <symbol id="right">
+        <path d="M18.77 0.69L29 11.19L18.77 21.69M29 11.19L0 11.19" stroke-width="2.000000"/>
+    </symbol>
+</svg>

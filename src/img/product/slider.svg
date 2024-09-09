@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+    <symbol id="left">
+        <path d="M40.38 21.48L26.28 35.57L25.4 36.5L26.28 37.42L40.38 51.51L42.22 49.67L29.05 36.5L42.22 23.32L40.38 21.48Z" fill="#ACACAC"/>
+        <circle cx="36.500000" cy="36.500000" r="36.000000" />
+    </symbol>
+
+    <symbol id="right">
+        <circle cx="36.500000" cy="36.500000" r="36.000000" />
+        <path d="M32.61 21.48L30.77 23.32L43.94 36.5L30.77 49.67L32.61 51.51L46.71 37.42L47.59 36.5L46.71 35.57L32.61 21.48Z" fill="#ACACAC"/>
+    </symbol>
+</svg>
